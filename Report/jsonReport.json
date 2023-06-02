@@ -1,0 +1,101 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "User Log In In Amazon Site",
+        "description": "",
+        "id": "user-taking-product-count-in-amazon-website;user-log-in-in-amazon-site",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4304795500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user Launch The Application",
+            "match": {
+              "location": "StefdefClass.user_Launch_The_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 629164500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user Selects Baby Category From Dropdown",
+            "match": {
+              "location": "StefdefClass.user_Selects_Baby_Category_From_Dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 197059600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Enters Toys In The Search Field",
+            "match": {
+              "location": "StefdefClass.user_Enters_Toys_In_The_Search_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6566607800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Clicks And It Navigates To Next Page",
+            "match": {
+              "location": "StefdefClass.user_Clicks_And_It_Navigates_To_Next_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "User Taking Count Of The Product",
+        "description": "Given",
+        "id": "user-taking-product-count-in-amazon-website;user-taking-count-of-the-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 147585400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user Get The Title Of The Product",
+            "match": {
+              "location": "StefdefClass.user_Get_The_Title_Of_The_Product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "user Close The Website",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User Taking Product Count In Amazon Website",
+    "description": "",
+    "id": "user-taking-product-count-in-amazon-website",
+    "keyword": "Feature",
+    "uri": "C:/Users/Bhakiyalakshmi/Desktop/Eclipse/2019-12/Amazon/src/test/java/Amazon/Feature/amazon.feature"
+  }
+]

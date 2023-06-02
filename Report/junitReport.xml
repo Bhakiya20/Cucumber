@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="2" time="11.845212">
+    <testcase classname="User Taking Product Count In Amazon Website" name="User Log In In Amazon Site" time="11.697627">
+        <system-out>
+            <![CDATA[Given user Launch The Application...........................................passed
+When user Selects Baby Category From Dropdown...............................passed
+And user Enters Toys In The Search Field....................................passed
+Then user Clicks And It Navigates To Next Page..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="User Taking Product Count In Amazon Website" name="User Taking Count Of The Product" time="0.147585">
+        <skipped>
+            <![CDATA[When user Get The Title Of The Product......................................passed
+Then user Close The Website.................................................undefined
+]]>
+        </skipped>
+    </testcase>
+</testsuite>
